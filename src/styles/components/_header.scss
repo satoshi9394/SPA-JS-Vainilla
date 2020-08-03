@@ -1,0 +1,15 @@
+.Header-main {
+  background-color: $color-secondary; 
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 30px;
+  margin: 20px;
+}
+
+.header a {
+  padding: 20px;
+  text-decoration: none;
+  color: $color-font;
+}
