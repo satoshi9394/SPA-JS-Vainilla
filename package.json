@@ -11,7 +11,7 @@
   "keywords": [
     "javascript"
   ],
-  "author": "Angel Santillan",
+  "author": "Angel Santillan Brambila",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.11.0",
