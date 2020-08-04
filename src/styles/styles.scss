@@ -1,8 +1,9 @@
 @import './_var.scss';
-
+@import './mixins';
 @import './global';
 @import './components/header';
 @import './components/cards';
+@import './components/card';
 
 
 
@@ -16,14 +17,7 @@
 
 
 
-@keyframes fade {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
+
 
 .Main-loading {
   border: 4px solid #f3f3f3;

@@ -6,61 +6,24 @@
   
 }
 
-.Characters-inner {
-  grid-template-columns: 1fr 2fr;
-  grid-gap: 1.5rem;
-  grid-row-gap: 1.5em;
-  display: grid;
-}
-
-.Characters-card {
-  background-color: $color-secondary;
-  text-decoration: none;
-  box-shadow: 8px 14px 38px rgba($color-variant,.06), 1px 3px 8px rgba($color-variant,.03);
-  border-radius: 5px;
-  margin: 0 0 20px 0;
-  display: block;
-  animation-duration: 2s;
-  animation-name: fade;
-  color: $color-font;
-}
-
-.Characters-card img {
-  width: 100%;
-  height: auto;
-  border-radius: 5px 5px 0 0;
-}
-
-.Characters-card h2 {
-  font-size: 18px;
-  font-weight: 400;
-  text-align: center;
-}
-
-.Characters-card h3 {
-  font-size: 18px;
-  font-weight: 400;
-  text-align: left;
-  margin: 20px;
-}
-
 .Character-item {
-  background-color: $color-secondary;
-  box-shadow: 8px 14px 38px rgba(39,44,49,.06), 1px 3px 8px rgba(39,44,49,.03);
-  border-radius: 5px;
+  border-radius: 20px;
   margin: 0 0 20px 0;
-  display: block;
-  animation-duration: 2s;
-  animation-name: fade;
+  @include box;
+  a{
+    text-decoration: none;
+    color: $color-font;
+  }
 }
 
-.Characters-item img {
+.Character-item img {
   width: 100%;
   height: auto;
-  border-radius: 5px 5px 0 0;
+  display: block;
+  border-radius: 20px 20px 0 0;
 }
 
-.Characters-item h2 {
+.Character-item h2 {
   font-size: 18px;
   font-weight: 300;
   padding: 5px 10px;
@@ -68,7 +31,4 @@
   justify-content: space-between;
 }
 
-.Characters a {
-  text-decoration: none;
-  color: #c7e2b2;
-}
+

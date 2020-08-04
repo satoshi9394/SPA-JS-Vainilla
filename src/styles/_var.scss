@@ -4,4 +4,13 @@ $font1: 'Open Sans', sans-serif;
 $color-primary: #89c9b8;
 $color-secondary: #092532;
 $color-font:#c7e2b2;
-$color-variant:#e1ffc2
+$color-variant:#e1ffc2;
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
